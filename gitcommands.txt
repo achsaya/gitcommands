@@ -1,0 +1,16 @@
+cd c:/
+mkdir gitdemo
+cd gitdemo
+git init
+git config --global user.name"Achsaya"
+git config --global user.email"achsaya.912@gmail.com"
+notepad sample.txt
+git status
+git add sample.txt
+(do some changes in text file)
+git status
+git add sample.txt
+git log
+git diff --staged(after commit no difference)
+git commit-m"commit the changes" sample.txt
+
